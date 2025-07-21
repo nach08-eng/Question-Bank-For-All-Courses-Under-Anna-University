@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Question Bank for All Engineering Courses</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Question Bank For All Courses</h1>
+    <h2>Affiliated By Anna University</h2>
+    <hr class="one">
+    <div id="home">
+        <button id="home-button">HOME</button>
+
+        <div id="home-content" style="display: none;">
+            <nav>
+                <div class="logo"></div>
+                <ul>
+
+                    <li><a href="intro.html">INTRODUCTION</a></li>
+
+
+                    <li><a href="#">COURSES</a>
+                        <ul class="dropdown">
+                            <li><a href="ai _ds.html">AI & DS</a></li>
+                            <li><a href="it.html">IT</a></li>
+                            <li><a href="cse.html">CSE</a></li>
+                            <li><a href="ece.html">ECE</a></li>
+                            <li><a href="eee.html">EEE</a></li>
+                            <li><a href="civil.html">CIVIL ENGINEERING</a></li>
+                            <li><a href="mechanical.html">MECHANICAL
+                                    ENGINEERING</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+            <div id="home-banner" style="display: none;">
+
+            </div>
+            <img
+                srcset="https://www.thoughtco.com/thmb/hILwwgdLhyr1VITjTTm9kEOUIDM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/startingcollege-58d177633df78c3c4ff303ba.jpg">
+            <script>
+                const button = document.getElementById('home-button');
+                const content = document.getElementById('home-content');
+
+                button.addEventListener('click', () => {
+                    if (content.style.display = 'none' || content.style.display === '') {
+                        content.style.display = 'block';
+                    } else {
+                        content.style.display = 'none';
+                    }
+                });
+            </script>
+        </div>
+        <footer>
+            <section>
+
+                <h4>Created By: Nachammai.S B-TECH (AI&DS)</h4>
+                <h4>Student of Chendhuran College Of Engineering and Technology, Pudukkottai</h4>
+            </section>
+        </footer>
+</body>
+
+</html>
